@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "O": "coppercode:copper_core",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    " CR",
+    "COC",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "coppercode:golem_remote"
+  }
+}

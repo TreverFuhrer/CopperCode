@@ -1,0 +1,28 @@
+{
+  "coppercode:recipes/tools/code_book": {
+    "criteria": {
+      "has_instruction_page": "2026-03-13 16:44:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-03-13 16:44:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cherry_grove": "2026-03-13 16:44:24 -0500",
+      "minecraft:plains": "2026-03-13 16:44:31 -0500"
+    },
+    "done": false
+  },
+  "coppercode:recipes/tools/golem_remote": {
+    "criteria": {
+      "has_copper_core": "2026-03-13 16:44:52 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
+}

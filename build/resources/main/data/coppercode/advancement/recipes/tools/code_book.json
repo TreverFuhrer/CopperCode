@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_instruction_page": {
+      "conditions": {
+        "items": [
+          {
+            "items": "coppercode:instruction_page"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "coppercode:code_book"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_instruction_page"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "coppercode:code_book"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:book",
+    "coppercode:instruction_page",
+    "coppercode:copper_core"
+  ],
+  "result": {
+    "count": 1,
+    "id": "coppercode:code_book"
+  }
+}
