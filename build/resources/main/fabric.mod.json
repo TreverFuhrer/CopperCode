@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "coppercode",
+	"version": "1.0.0",
+	"name": "Copper Code",
+	"description": "Base architecture scaffold for the Copper Code Fabric mod.",
+	"license": "CC0-1.0",
+	"icon": "assets/coppercode/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"trev.coppercode.CopperCode"
+		],
+		"client": [
+			"trev.coppercode.CopperCodeClient"
+		],
+		"fabric-datagen": [
+			"trev.coppercode.CopperCodeDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,10 +1,22 @@
 package trev.coppercode;
 
 import net.fabricmc.api.ClientModInitializer;
+import trev.coppercode.client.network.ClientPacketHandlers;
+import trev.coppercode.client.registry.ModBlockEntityRenderers;
+import trev.coppercode.client.registry.ModEntityRenderers;
+import trev.coppercode.client.registry.ModScreens;
+import trev.coppercode.util.ModConstants;
+import trev.coppercode.util.ModLogger;
 
-public class CopperCodeClient implements ClientModInitializer {
+/** Client-only entrypoint for Copper Code. */
+public final class CopperCodeClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
+		ModLogger.info("Initializing {} client", ModConstants.MOD_NAME);
+
+		ModScreens.initialize();
+		ModEntityRenderers.initialize();
+		ModBlockEntityRenderers.initialize();
+		ClientPacketHandlers.initialize();
 	}
 }

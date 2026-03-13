@@ -1,24 +1,36 @@
 package trev.coppercode;
 
 import net.fabricmc.api.ModInitializer;
+import trev.coppercode.registry.ModBlockEntities;
+import trev.coppercode.registry.ModBlocks;
+import trev.coppercode.registry.ModCommands;
+import trev.coppercode.registry.ModDataComponents;
+import trev.coppercode.registry.ModEntities;
+import trev.coppercode.registry.ModItemGroups;
+import trev.coppercode.registry.ModItems;
+import trev.coppercode.registry.ModNetworking;
+import trev.coppercode.registry.ModScreenHandlers;
+import trev.coppercode.registry.ModSoundEvents;
+import trev.coppercode.util.ModConstants;
+import trev.coppercode.util.ModLogger;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-public class CopperCode implements ModInitializer {
-	public static final String MOD_ID = "coppercode";
-
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
+/** Common/server-safe entrypoint for Copper Code. */
+public final class CopperCode implements ModInitializer {
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModLogger.info("Initializing {}", ModConstants.MOD_NAME);
 
-		LOGGER.info("Hello Fabric world!");
+		ModSoundEvents.initialize();
+		ModDataComponents.initialize();
+		ModBlocks.initialize();
+		ModItems.initialize();
+		ModBlockEntities.initialize();
+		ModEntities.initialize();
+		ModScreenHandlers.initialize();
+		ModItemGroups.initialize();
+		ModNetworking.initialize();
+		ModCommands.initialize();
+
+		ModLogger.info("{} initialized", ModConstants.MOD_NAME);
 	}
 }
