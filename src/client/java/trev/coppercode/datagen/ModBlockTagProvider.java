@@ -13,6 +13,6 @@ public final class ModBlockTagProvider extends FabricTagProvider.BlockTagProvide
 
 	@Override
 	protected void addTags(HolderLookup.Provider wrapperLookup) {
-		// TODO Add block tags here when mod blocks are introduced.
+		// Add mining/tool tags here as the block set expands.
 	}
 }

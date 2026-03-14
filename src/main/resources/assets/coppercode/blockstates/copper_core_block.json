@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "coppercode:block/copper_core_block"
+    }
+  }
+}

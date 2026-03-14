@@ -1,1 +1,9 @@
 // 1.21.11	-999999999-01-01T00:00:00	Copper Code/Model Definitions
+2999a67c5bf5f25d0506ccbfb0b37c73c95b57ed assets/coppercode/items/code_book.json
+b4c17c40d7f5c97df05777688ce1184d01d36975 assets/coppercode/items/copper_core.json
+7e67d4e4705865e8e49681dbc47bb4211c1bbd76 assets/coppercode/items/golem_remote.json
+be11b6d9706960683d751ab6b5f0f0b1104df785 assets/coppercode/items/instruction_page.json
+4f4ab22eb09ea54317e05ba4790d4133d95e5f97 assets/coppercode/models/item/code_book.json
+9598ac6c69e433c0297f39684a96fafb2fbfd30a assets/coppercode/models/item/copper_core.json
+aab7d0c54eac1c42a660427bde282c44e538627c assets/coppercode/models/item/golem_remote.json
+f3ab0c5b977e701c3047eb5ff13e0a892ab4852f assets/coppercode/models/item/instruction_page.json

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "coppercode:block/codingdesk"
+    },
+    "facing=east": {
+      "model": "coppercode:block/codingdesk",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coppercode:block/codingdesk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coppercode:block/codingdesk",
+      "y": 270
+    }
+  }
+}

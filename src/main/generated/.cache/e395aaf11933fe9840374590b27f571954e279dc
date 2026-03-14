@@ -1,1 +1,11 @@
 // 1.21.11	-999999999-01-01T00:00:00	Copper Code/Copper Code Recipes
+6217ce15df04ae0938ef507829924adb59bc740d data/coppercode/advancement/recipes/decorations/coding_desk.json
+19bf3e5a9b19a3fce67f6971c9aac96f74324d3b data/coppercode/advancement/recipes/misc/copper_core.json
+5327898065c6ace7ff506d5ff4b6f1a269776ed5 data/coppercode/advancement/recipes/misc/instruction_page.json
+5c168b4936c15dd9602da14988671a0adc4a184d data/coppercode/advancement/recipes/tools/code_book.json
+48bc00ebca4b08a747748ee60e9b527d6bea4128 data/coppercode/advancement/recipes/tools/golem_remote.json
+da298dd902211f99d6d47d801d1a72f041e388fa data/coppercode/recipe/code_book.json
+b5ed73f83c4a6bea0fcb64713ff5490c72abb5ec data/coppercode/recipe/coding_desk.json
+df64e3232166a72492287b4c9ee7ce1b5b0f1e50 data/coppercode/recipe/copper_core.json
+b4fd00d61b7c510e7a06ff0593bc8911913fd8a6 data/coppercode/recipe/golem_remote.json
+fa501e8d2deb53af270090f22c4e9c9cd2cc2c08 data/coppercode/recipe/instruction_page.json
