@@ -6,7 +6,7 @@ import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
 import trev.coppercode.screen.CodingDeskScreenHandler;
-import trev.coppercode.screen.CopperGolemScreenHandler;
+import trev.coppercode.screen.handler.CopperGolemScreenHandler;
 import trev.coppercode.util.ModIds;
 
 /** Owns menu registrations shared between the server and handled client screens. */

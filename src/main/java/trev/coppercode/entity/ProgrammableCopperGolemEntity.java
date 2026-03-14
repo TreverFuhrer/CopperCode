@@ -19,8 +19,8 @@ import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 import net.minecraft.world.phys.Vec3;
 import org.jspecify.annotations.Nullable;
-import trev.coppercode.inventory.GolemInventory;
-import trev.coppercode.screen.CopperGolemScreenHandler;
+import trev.coppercode.golem.inventory.GolemInventory;
+import trev.coppercode.screen.handler.CopperGolemScreenHandler;
 
 /** A programmable variant that reuses vanilla copper golem behavior and rendering. */
 public final class ProgrammableCopperGolemEntity extends CopperGolem implements MenuProvider {
