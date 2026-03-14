@@ -1,0 +1,52 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Fabric / Loom
+.loom/
+run/
+runClient/
+runServer/
+logs/
+*.log
+
+# Compiled files
+*.class
+*.jar
+*.hprof
+
+# Generated resources
+src/main/generated/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VSCode
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Metals / Scala tooling
+.metals/
+
+# NetBeans
+nbproject/private/
+
+# Environment files
+.env
